@@ -2,12 +2,13 @@
   "name": "layui",
   "version": "2.1.4",
   "independents": {
-    "layim": "3.7.2" 
+    "layim": "3.7.2"
   },
   "description": "经典模块化前端框架",
   "main": "layui.js",
   "license": "MIT",
   "scripts": {
+    "build:all": "gulp all --open",
     "test": "karma start karma.conf.unit.js",
     "test:cov": "npm test -- --reporters mocha,coverage",
     "test:sauce": "karma start karma.conf.sauce.js",

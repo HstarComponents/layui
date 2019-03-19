@@ -1,3 +1,14 @@
+# Fork 之后的改造
+
+```bash
+# pack layui.all
+npm run build:all
+```
+
+
+
+# 原本的README
+
 <p align=center>
   <a href="http://www.layui.com">
     <img src="http://cdn.layui.com/upload/2016_10/168_1476644144774_50450.png" alt="layui" width="520">
